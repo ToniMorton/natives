@@ -1,6 +1,9 @@
 ---
 ns: VEHICLE
 aliases: ["0x90B6DA738A9A25DA", "_SET_SOME_VEHICLE_DENSITY_MULTIPLIER_THIS_FRAME"]
+-- currently SET_AMBIENT_VEHICLE_RANGE_MULTIPLIER_THIS_FRAME
+-- possibly SetAmbientVehicleMulitplierThisFrame?
+
 ---
 ## SET_AMBIENT_VEHICLE_RANGE_MULTIPLIER_THIS_FRAME
 
@@ -12,3 +15,4 @@ void SET_AMBIENT_VEHICLE_RANGE_MULTIPLIER_THIS_FRAME(float range);
 ## Parameters
 * **range**: Most likely a value between 0.0 and 1.0.
 
+--Is this not SetAmbientVehicleMulitplierThisFrame?
